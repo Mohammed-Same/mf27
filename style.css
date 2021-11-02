@@ -6,6 +6,7 @@
     box-sizing: border-box;
   
 }
+
 .for-bg{
     background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(img/home.jpg)center/cover fixed no-repeat;
     
@@ -324,7 +325,7 @@ justify-content: space-around;
 
 }
 .line-2{
-    color: white;
+    color: #fded12ec;
     border: 2px solid hidden;
   
     font-size:28px;
@@ -389,10 +390,11 @@ h3 img{
 }
 
 /*Service home page*/
+
 .service
 {
     background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(img/contact.jpg) center/cover fixed no-repeat;
-    height: 630px;
+    height:680px;
     
 
 }
@@ -411,6 +413,57 @@ h3 img{
     font-family:'poppins', sans-serif;
       color:rgb(253, 40, 40);
 }
+/*service*/
+
+.hide {
+    display: none;
+  }
+      
+    .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }
+.hide{
+    display: none;
+  }
+      
+.serviceLine:hover + .hide {
+    display: block;
+    color: red;
+  } 
+.block:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11);
+    cursor: pointer;
+  }
+  .quality:hover{
+      color: rgba(0,0,0,.6);
+  }
+  
+
+  .block:hover .overlay {
+    transform: scale(4) translateZ(0);
+  }
+  
+  .block:hover .circle {
+    border-color: black;
+    background:rgb(253, 40, 40);
+  }
+  
+  .block:hover .circle:after {
+    background:rgb(197, 45, 45);
+  }
+  
+  .block:hover p {
+    color: rgb(197, 45, 45);
+  }
+  
+  .card:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+      0 15px 24px var(--box-shadow-color);
+  }
+  /*servoce- end*/
 .blocks-container
 {
     display: flex;
@@ -433,7 +486,7 @@ h3 img{
    background-color: #FFFFFF;
     color: black;
     width: 23%;
-    height: 310px;
+    height: 360px;
     border: 2px solid transparent;
     border-radius: 10px;
 }
@@ -713,22 +766,25 @@ footer i{
     .read-btn{
         margin: 20px;
     }
-    .service-head{
-
+    .service{
+        height: auto;
     
     }
     .blocks-container{
         display: block;
+        height: auto;
+        background-image: ;
         
 
         
     }
     .block{
         width: 60%;
-        height: 300px;
+        height: auto;
         margin: 5px;
         padding: 10px;
     margin-left: 60px;
+    margin-top: 10px;
  
    
     }
@@ -745,7 +801,7 @@ footer i{
     }
     .gallery{
         display: block;
-        margin-top: 700px;
+        margin-top: 100px;
         margin-left: 30px;
        
     }
@@ -794,6 +850,9 @@ footer i{
         font-size: 18px;
         margin-left: 0px;
         margin-top: 20px;
+    }
+    h3 img{
+        
     }
     
    
