@@ -394,7 +394,7 @@ h3 img{
 .service
 {
     background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(img/contact.jpg) center/cover fixed no-repeat;
-    height:680px;
+    height:auto;
     
 
 }
