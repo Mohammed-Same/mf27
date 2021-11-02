@@ -1,3 +1,6 @@
+<?php
+require_once('config.php');
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,9 +21,11 @@
     <title >Molecule</title>
     </head>
     <body>
+      
+    </div>
         <div class="page-bg">
             <header>
-                <img src="img/logo123.png" width="200px" height="150px" alt="">
+                <img src="img/logo123.png" width="150px" height="100px" alt="">
                 <div class="logo">  <a href="index.html">
                   Molecule <br>
                     <span class="fitness-logo">Fitness 27</span> </a>
@@ -33,8 +38,8 @@
                    <ul id="on">
                        <li><a href="index.html" class="btn">Home</a></li>
                        <li><a href="about.html"  class="btn ">About</a></li>
-                       <li><a href="#services" class="btn ">Services</a></li>
-                       <li><a href="#gallery" class="btn ">Gallery</a></li>
+                       <li><a href="service.html" class="btn ">Services</a></li>
+                       <li><a href="index.html" class="btn ">Gallery</a></li>
                        <li><a href="contact.html" class="btn">Contact Us</a></li>
                        <li><button class="member"> <a href="#contact"> Become a member</a></button></li>
                </ul>
@@ -43,7 +48,7 @@
                </header>
                
                    
-                <h2 class="line-2">Molecule Fitness |<span>Contact Us</span></h2>
+                <h2 class="line-2">Molecule Fitness 27 |<span>Contact Us</span></h2>
             </div>
             
            <section class="contact" id="contact">
@@ -56,11 +61,11 @@
                     <input type="text" placeholder="First Name" required>
                     <label for="name" class="label">Last Name</label>
                     <input type="text" placeholder="Last Name" required> <br>
-                    <label for="name" class="label">Email</label>
+                    <label for="email" class="label">Email</label>
                     <input type="text" placeholder="Email" required>  <br>
-                    <label for="name" class="label">Phone</label>
+                    <label for="phone" class="label">Phone</label>
                     <input type="number" placeholder="phone" required> <br>
-                    <label for="name" class="label">Message</label>
+                    <label for="message" class="label">Message</label>
                     <input type="text" placeholder="Message" required>  
                     <button class="contact-btn" type="submit">Submit</button>
                 </form>
